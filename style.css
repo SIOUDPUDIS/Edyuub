@@ -1,0 +1,103 @@
+body {
+    background: linear-gradient(135deg, #1e1e1e, #4b0082);
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#edy1 {
+    color: #D36EFF;
+    font-family: 'Pacifico', cursive;
+    margin-top: 200px;
+    font-size: 60px;
+}
+
+#btn {
+    background-color: cyan;
+    color: black;
+    padding: 10px 20px;
+    margin: 0;
+    border: none;
+    font-size: 25px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 100px;
+    transition: 0.3s;
+}
+
+#btn:hover {
+    background-color: #ffcc00;
+    color: white;
+    box-shadow: 0 0 15px #ffcc00;
+}
+
+nav {
+    background-color: #333;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+#btn1, #btn2, #btn3 {
+    background-color: #1e1e1e;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+#btn1:hover, #btn2:hover, #btn3:hover {
+    background-color: #333;
+    box-shadow: 0 0 15px #ffcc00;
+}
+
+#amet, #hmet, #imet {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.kucukResim {
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#anasayfa {
+    opacity: 0;
+    transition: opacity 1s;
+    display: none;
+}
+
+#edy {
+    background-color: cyan;
+    color: cyan;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+}
+
+@media (max-width: 600px) {
+    #edy1 {
+        font-size: 40px;
+    }
+    #btn {
+        font-size: 20px;
+        padding: 8px 15px;
+    }
+    .kucukResim {
+        width: 100%;
+        height: auto;
+    }
+}
